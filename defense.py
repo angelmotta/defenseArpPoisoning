@@ -26,7 +26,6 @@ def service_anti_poisoning(init_mac_gw):
 
 def main():
     init_mac_gw = get_initial_mac_gw()
-    #print(init_mac_gw)
     service_anti_poisoning(init_mac_gw)
 
 ## Calling main function ##
